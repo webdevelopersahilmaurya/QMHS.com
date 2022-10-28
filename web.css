@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0%;
+
+}
+
+/* navigation bar start */ 
+#navbar1{
+    position: static;
+}
+
+.brand {
+    width: 40px;
+}
+
+.nav-item:hover {
+    color: rgb(218, 0, 0);
+}
+
+/* navigation bar end */
+
+
+
+/* about start */
+
+#qmst {
+    text-align: center !important;
+}
+
+
+#qmstd {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* about end */
+
+
+
+/* social media start */
+
+footer {
+    background-color: rgb(58, 79, 114);
+    width: 100%;
+    display: inline-block;
+
+}
+
+.facebook {
+    margin: 10px;
+    width: 30px;
+    float: right;
+    color: blue;
+    background: none;
+}
+
+.facebook:hover {
+    color: rgb(255, 94, 0);
+}
+
+
+.twitter {
+    margin: 10px;
+    width: 30px;
+    float: right;
+    color: blue;
+    background: none;
+}
+
+.twitter:hover {
+    color: rgb(255, 94, 0);
+}
+
+
+.instagram {
+    margin: 10px;
+    width: 30px;
+    float: right;
+    color: blue;
+    background: none;
+}
+
+.instagram:hover {
+    color: rgb(255, 94, 0);
+}
+
+.imm {
+    width: 50px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.copy {
+    display: inline;
+    color: #fff;
+
+}
+
+.made {
+    position: relative;
+    left: 90px;
+    color: aqua;
+    display: inline-table;
+}
+
+
+/* social media end */
+
+
+
+#sahil {
+    text-decoration: none;
+}
+
+/* media query start  */
+
+
+@media (max-width : 900px) {
+    #form {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+@media (max-width : 400px) {
+
+    .map {
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+
+/* media query end */
